@@ -1,0 +1,12 @@
+{
+     "id": "2349",
+     "parent_exercise_id": null,
+     "name": "  Update Dictionary",
+     "slug": "dictionary__update_element_dictionary",
+     "sequence_num": 300,
+     "review_type": "peer",
+     "solution": null,
+     "content": "[{\"type\":\"markdown\",\"value\":\"\\n\\n## Updating Dictionary :-\\n\\n Hum dictionary ko update karne ke liye usme ek entry kar sakte hai ya fir key-value pair add kar sakte hai aur jo key pehle se present hai uski value change kar sakte hai. Jaisa ki niche example me dikhaya gaya hain. **Example 1:-** \"},{\"type\":\"python\",\"value\":{\"code\":\"person= {'1': 'RAM', '2': 17,}\\nperson[3] = 'male'\\nprint(person)\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"*Output:-*\\n` {'1': 'RAM', '2': 17,'3':'male'}` **Example 2-** \"},{\"type\":\"python\",\"value\":{\"code\":\"details={\\n    'Name': 'RAM',\\n     'Age': 17, \\n     'student': {\\n      'id': 22,\\n      'place': 'dharamsala'\\n      }\\n     } \\ndetails['student']['id']=35\\nprint(details); \",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"*Output:-* `{'Name': 'RAM', 'Age': 17, 'student': {'id': 35, 'place': 'dharamsala'}}` \\n\\n## Copy of Dictionary :- \\n\\n\\n Hum dictionary ko 2 tarike se copy kar sakte hai,phela method *copy()* and second method by using built-in function dict(). `Example 1 :-` \"},{\"type\":\"python\",\"value\":{\"code\":\"classes ={\\n    \\\"room1\\\":  \\\"6th\\\",\\n    \\\"room2\\\":  \\\"7th\\\",\\n    \\\"room3\\\":  \\\"8th\\\"\\n        }\\nmydict=classes.copy()\\nprint(mydict)\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"`Ouput:-` `{'room2': '7th', 'room3': '8th', 'room1': '6th'` \"}]",
+     "submission_type": "url",
+     "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/update_element_dictionary.md"
+}
